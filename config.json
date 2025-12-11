@@ -1,0 +1,53 @@
+{
+  "ascii": [
+    "███████╗██╗  ██╗███████╗██╗     ██╗",
+    "██╔════╝██║  ██║██╔════╝██║     ██║",
+    "███████╗███████║█████╗  ██║     ██║",
+    "╚════██║██╔══██║██╔══╝  ██║     ██║",
+    "███████║██║  ██║███████╗███████╗███████╗",
+    "╚══════╝╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝"
+  ],
+  "title": "WebShell",
+  "username": "root",
+  "hostname": "kernelzero",
+  "password": "5900",
+  "music_link": "https://youtu.be/dQw4w9WgXcQ",
+  "social": {
+    "email": "rohitvd27@gmail.com",
+    "github": "rohitdeshmukh27",
+    "linkedin": "rohitdeshmukh27",
+    "tryhackme": "rohitdeshmukh27"
+  },
+  "aboutGreeting": "Hello World!",
+  "projects": [
+    ["GofeR", "Vue.js reactivity in Go.", "https://github.com/nasan016/gofer"],
+    [
+      "WebShell",
+      "Terminal styled website.",
+      "https://github.com/nasan016/webshell"
+    ]
+  ],
+  "colors": {
+    "background": "#0C0623",
+    "foreground": "#F8DDE5",
+    "banner": "#FF9951",
+    "border": {
+      "visible": true,
+      "color": "#FFADE2"
+    },
+    "prompt": {
+      "default": "#A5A7A7",
+      "user": "#FE6BC9",
+      "host": "#70FDFF",
+      "input": "#FF7685"
+    },
+    "link": {
+      "text": "#B6AAEE",
+      "highlightColor": "#FFADE2",
+      "highlightText": "#0C0623"
+    },
+    "commands": {
+      "textColor": "#FD9BDB"
+    }
+  }
+}
