@@ -1,4 +1,3 @@
-import { img } from "framer-motion/client";
 import command from "../../config.json" assert { type: "json" };
 
 const createAbout = (): string[] => {

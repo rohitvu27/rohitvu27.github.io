@@ -24,7 +24,7 @@ export const createWhoami = (): string[] => {
   const r = Math.floor(Math.random() * whoamiObj.message.length);
   whoami.push("<br>");
 
-  whoamiObj.message[r].forEach((ele, idx) => {
+  whoamiObj.message[r].forEach((ele) => {
     whoami.push(ele);
   });
 
