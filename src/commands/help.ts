@@ -6,7 +6,7 @@ const helpObj = {
     ],
     [
       "'projects'",
-      "Maybe there's something interesting."
+      "View projects and writeups."
     ],
     [
       "'whoami'",
@@ -16,8 +16,8 @@ const helpObj = {
       "???"
     ],
     [
-      "'repo'",
-      "View the Github Repository."
+      "'./doNotRunThis'",
+      "Do NOT run this shell file."
     ],
     ["'banner'",
       "Display the banner."
@@ -40,7 +40,7 @@ const createHelp = () : string[] => {
     string += "<span class='command'>";
     string += ele[0];
     string += "</span>";
-    string += SPACE.repeat(17 - ele[0].length);
+    string += SPACE.repeat(35 - ele[0].length);
     string += ele[1];
     help.push(string);
   })

@@ -1,33 +1,51 @@
 {
   "ascii": [
-    "███████╗██╗  ██╗███████╗██╗     ██╗",
-    "██╔════╝██║  ██║██╔════╝██║     ██║",
-    "███████╗███████║█████╗  ██║     ██║",
-    "╚════██║██╔══██║██╔══╝  ██║     ██║",
-    "███████║██║  ██║███████╗███████╗███████╗",
-    "╚══════╝╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝"
-  ],
-  "title": "WebShell",
-  "username": "visitor",
-  "hostname": "webshell",
-  "password": "050823",
-  "repoLink": "https://github.com/nasan016/webshell",
+  " ██████╗ ██████╗ ███╗   ██╗███╗   ██╗███████╗ ██████╗████████╗███████╗██████╗ ",
+  "██╔════╝██╔═══██╗████╗  ██║████╗  ██║██╔════╝██╔════╝╚══██╔══╝██╔════╝██╔══██╗",
+  "██║     ██║   ██║██╔██╗ ██║██╔██╗ ██║█████╗  ██║        ██║   █████╗  ██║  ██║",
+  "██║     ██║   ██║██║╚██╗██║██║╚██╗██║██╔══╝  ██║        ██║   ██╔══╝  ██║  ██║",
+  "╚██████╗╚██████╔╝██║ ╚████║██║ ╚████║███████╗╚██████╗   ██║   ███████╗██████╔╝",
+  " ╚═════╝ ╚═════╝ ╚═╝  ╚═══╝╚═╝  ╚═══╝╚══════╝ ╚═════╝   ╚═╝   ╚══════╝╚═════╝ "
+],
+  "title": "Rohit D",
+  "username": "root",
+  "hostname": "kernelzero",
+  "password": "chocolate",
+  "repoLink": "https://youtu.be/dQw4w9WgXcQ",
   "social": {
-    "email": "your@email.com",
-    "github": "yourgithub",
-    "linkedin": "you"
+    "email": "rohitvd27@gmail.com",
+    "github": "rohitdeshmukh27",
+    "linkedin": "rohitdeshmukh27",
+    "tryhackme": "rohitdeshmukh27"
   },
-  "aboutGreeting": "Hi stranger. Welcome to WebShell.",
+  "aboutGreeting": "Hey, I'm Rohit Deshmukh. Software developer specializing in frontend engineering and offensive security.",
   "projects": [
     [
-      "GofeR",
-      "Vue.js reactivity in Go.",
-      "https://github.com/nasan016/gofer"
+      "marksheet-insights-generator",
+      "Automated marksheet analysis tool.",
+      "https://github.com/rohitdeshmukh27/marksheet-insights-generator.git"
     ],
     [
-      "WebShell",
-      "Terminal styled website.",
-      "https://github.com/nasan016/webshell"
+      "StandUp.exe",
+      "Chrome extension for productivity.",
+      "https://github.com/rohitdeshmukh27/StandUp.exe-Chrome-Extensions.git"
+    ]
+  ],
+  "writeups": [
+    [
+      "TryHackMe-Pickle-Rick-Writeups",
+      "CTF writeup for Pickle Rick room.",
+      "https://github.com/rohitdeshmukh27/TryHackMe-Pickle-Rick-Writeups.git"
+    ],
+    [
+      "TryHackMe-Simple-CTF-Notes",
+      "Notes from Simple CTF challenge.",
+      "https://github.com/rohitdeshmukh27/TryHackMe-Simple-CTF-Notes.git"
+    ],
+    [
+      "THM-Advent-of-Cyber-2025",
+      "Advent of Cyber 2025 solutions.",
+      "https://github.com/rohitdeshmukh27/THM-Advent-of-Cyber-2025.git"
     ]
   ],
   "colors": {

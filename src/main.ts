@@ -28,7 +28,7 @@ const PRE_USER = document.getElementById("pre-user");
 const HOST = document.getElementById("host");
 const USER = document.getElementById("user");
 const PROMPT = document.getElementById("prompt");
-const COMMANDS = ["help", "about", "projects", "whoami", "repo", "banner", "clear"];
+const COMMANDS = ["help", "about", "projects", "whoami", "./doNotRunThis", "banner", "clear", "linkedin", "github", "email"];
 const HISTORY : string[] = [];
 const SUDO_PASSWORD = command.password;
 const REPO_LINK = command.repoLink;
@@ -158,11 +158,11 @@ function commandHandler(input : string) {
 
         easterEggStyles();
         setTimeout(() => {
-          writeLines(["What made you think that was a good idea?", "<br>"]);
+          writeLines(["Nice work 👏, You followed the hint and got access. That curiosity matters.", "<br>"]);
         }, 200)
 
         setTimeout(() => {
-          writeLines(["Now everything is ruined.", "<br>"]);
+          writeLines(["Say hi on LinkedIn(Clickable link in the about command): https://www.linkedin.com/in/rohitdeshmukh27/ Mention you solved this small CTF 🙂", "<br>"]);
         }, 1200)
 
         } else if (input === "rm -rf src" && bareMode) {
@@ -224,21 +224,31 @@ function commandHandler(input : string) {
       }
       writeLines(PROJECTS);
       break;
-    case 'repo':
-      writeLines(["Redirecting to github.com...", "<br>"]);
+    case './donotrunthis':
+      writeLines(["Redirecting... (¬‿¬)", "<br>"]);
       setTimeout(() => {
         window.open(REPO_LINK, '_blank');
       }, 500);
       break;
     case 'linkedin':
-      //add stuff here
+      writeLines(["Redirecting to LinkedIn...", "<br>"]);
+      setTimeout(() => {
+        window.open(`https://linkedin.com/in/${command.social.linkedin}`, '_blank');
+      }, 500);
       break;
     case 'github':
-      //add stuff here
+      writeLines(["Redirecting to GitHub...", "<br>"]);
+      setTimeout(() => {
+        window.open(`https://github.com/${command.social.github}`, '_blank');
+      }, 500);
       break;
     case 'email':
-      //add stuff here
+      writeLines(["Opening email client...", "<br>"]);
+      setTimeout(() => {
+        window.location.href = `mailto:${command.social.email}`;
+      }, 500);
       break;
+
     case 'rm -rf':
       if (bareMode) {
         writeLines(["don't try again.", "<br>"])
@@ -397,8 +407,6 @@ const initEventListeners = () => {
   window.addEventListener('click', () => {
     USERINPUT.focus();
   });
-
-  console.log(`%cPassword: ${command.password}`, "color: red; font-size: 20px;");
 }
 
 initEventListeners();

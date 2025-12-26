@@ -37,6 +37,15 @@ const createAbout = () : string[] => {
   string += `<a target='_blank' href='https://www.linkedin.com/in/${command.social.linkedin}'>linkedin/${command.social.linkedin}</a>`;
   about.push(string);
 
+  const TRYHACKME = "TryHackMe";
+  const tryhackme = `<i class='fa-solid fa-flag'></i> ${TRYHACKME}`;
+  string = '';
+  string += SPACE.repeat(2);
+  string += tryhackme;
+  string += SPACE.repeat(17 - TRYHACKME.length);  
+  string += `<a target='_blank' href='https://tryhackme.com/p/${command.social.tryhackme}'>tryhackme/${command.social.tryhackme}</a>`;
+  about.push(string);
+
   about.push("<br>");
   return about
 }
